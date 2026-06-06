@@ -1,11 +1,21 @@
 <?php
-$x = 5;
+// $x = 5;
+
+// function myTest() {
+//     // global $x;
+//     echo "Variabel x inside function is : $x\n";
+// }
+
+// myTest();
+// echo "Variabel x outsied function is: $x\n";
 
 function myTest() {
-    // global $x;
-    echo "Variabel x inside function is : $x\n";
+    static $x = 0;
+    echo $x;
+    $x++;
 }
 
 myTest();
-echo "Variabel x outsied function is: $x\n";
+myTest();
+myTest();
 ?>

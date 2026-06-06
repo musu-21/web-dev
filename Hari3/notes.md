@@ -20,3 +20,18 @@ Hari 3
     hasilnya "warning muncul"
 
 - baris 10 : balik ke ruang tmau dan benar $x = 5 masih ada di ruang tmau jadi output nya 5
+
+--------------------
+
+- Hari 3 06/06/26
+- baris 12 = analogi nya sebagai mesin tiket di bank 
+- baris 13 = ini seperti mesin tiket yang punya papan angka internal, jadi ketika pertama kali dinyalakan angkanya 0 tapi "static" yang artinya papan angkanya tidak di-reset setiap kali orang baru datang, jadi mesin ini ingat angka terakhir 
+
+- baris 14 = mesin sedang menampilkan nomor antrian saat ini
+
+- baris 15 = setelah nomor ditampilkan, mesin menaikkan angka untuk orang berikutnya
+
+- baris 18 = 
+    > $x belum pernah dipakai => mulai dari 0, tampilkan 0, lalu naik jadi 1 maka output nya 0
+    > static tidak direset, $x sekarang adalah 1, jadi tampilkan 1, lalu naik jadi 2, maka output nya 1
+    > $x sekarang 2, tampilkan 2, naik jadi 3, maka outputnya 2
