@@ -42,3 +42,8 @@ Hari 3
 - global = perintah untuk ixin mengambil barang
 - $x, $y = barang digudang
 - baris 27 = hitung + simpan balik ke gudang
+---------------------
+
+- variabel super global
+- untuk menyimpan semua variable global dalam array yang disebut $FLOBALS[index], index yang memegang nama dari variabel, array ini dapat diakses dari fungsi dan dapat digunakan untuk memperbarui variabel global secara langsung
+- intinya untuk mengakses semua variabel global dari dalam function

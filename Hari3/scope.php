@@ -19,7 +19,7 @@ myTest();
 myTest();
 myTest();*/
 
-$x = 5;
+/*$x = 5;
 $y = 10;
 
 function myTest() {
@@ -28,6 +28,16 @@ function myTest() {
 }
 
 myTest();
-echo $y;
+echo $y;*/
+
+$x = 77;
+$y = 3;
+
+function myTest() {
+    $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];
+}
+
+myTest();
+echo $z;
 
 ?>
