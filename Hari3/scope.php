@@ -9,7 +9,7 @@
 // myTest();
 // echo "Variabel x outsied function is: $x\n";
 
-function myTest() {
+/*function myTest() {
     static $x = 0;
     echo $x;
     $x++;
@@ -17,5 +17,17 @@ function myTest() {
 
 myTest();
 myTest();
+myTest();*/
+
+$x = 5;
+$y = 10;
+
+function myTest() {
+    global $x, $y;
+    $y = $x + $y;
+}
+
 myTest();
+echo $y;
+
 ?>
